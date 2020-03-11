@@ -1,0 +1,146 @@
+body{
+	margin:0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.title-bar{
+	height:90px;
+}
+
+#top-screen{
+	background-image:url(./Pictures/wallpaperflare.com_wallpaper.jpg);
+	max-height: 100%;
+	max-width: 100%;
+	background-size: cover;
+	margin-top: 0;
+	height: 720px;
+}
+
+.title-bar h1{
+	font-family: "Montserrat",sans-serif;
+	color: white;
+	padding-left: 20px;
+	font-size: 55px;
+	line-height: 17px;
+	float: left;
+}
+
+.intro h1{
+	font-family: "Montserrat",sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 55px;
+	padding-top: 120px;
+	letter-spacing: 5px;
+}
+
+.intro p{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+.title-bar a{
+	color: white;
+	text-decoration: none;
+	float: right;
+	font-size: 25px;
+	padding-right: 20px;
+	line-height: 17px;
+	font-family:  "Montserrat",sans-serif;
+	padding-top: 33px;
+}
+
+#editor ,#reference, #font, #icon, #photo{
+	padding-top:50px;
+	padding-right: 150px;
+	padding-left: 200px;
+}
+
+#editor h1, #reference h1, #font h1, #icon h1,#photo h1{
+	font-family:  "Montserrat",sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.clink{
+	font-family:  "Montserrat",sans-serif;
+	text-decoration: none;
+	font-size: 25px;
+	color: red;
+	font-weight:bold;
+}
+
+a:hover {
+	opacity: 0.6;
+}
+
+.clink span{
+	color:black;
+}
+
+#editor p,#reference p,#font p,#icon p,#photo p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+
+.info img{
+	height: 200px;
+	width: 400px;
+	float: right;
+}
+
+.info{
+	display: block;
+}
+
+.top-link{
+	
+	position: fixed;
+	bottom: 20%;
+	right: 20px;
+
+	cursor: pointer;
+	margin:0 3px 3px 0;
+	border-radius: 50%;
+	padding: 15px;
+	width:25px;
+	height: 25px;
+	background-color: gray; 
+
+	&.none{
+
+	}
+	& .show{
+		visibility: visible;
+		opacity:0.8;
+	}
+	& .hide{
+		visibility: hidden;
+		opacity:0;
+	}
+
+	svg{
+		fill: #000;
+		width:24px;
+		height: 12px;
+	}
+
+	&:hover{
+		background-color: #E8E8E8;
+		svg{
+			fill: #000000;
+		}
+	}
+}
+
+
+#reference, #icon{
+	background-color: gray;
+}
+#reference a,#icon a{
+	color: white;
+}
